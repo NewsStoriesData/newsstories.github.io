@@ -30,6 +30,8 @@ You can use this link to download the NewsStories dataset.
 
 ## Evaluation code on GoodNews
 
+To begin, please follow the instructions [here](https://github.com/furkanbiten/GoodNews) to download the GoodNews dataset. In our experiments, we evaluate the trained models on the GoodNews
+
 `python eval_goodnews.py`
 
 # Required Arguments For Training
