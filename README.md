@@ -24,8 +24,15 @@ You can use this link to download the NewsStories dataset.
 
 # MIL-SIM code
 
+## Training code on NewsStories
 
-# Required Arguments
+`python train_model.py --pretrained_path {path to pretrained CLIP model}  --num_imgs {maximum number of images in a set} --num_sentences {maximum number of sentences in an article.}`
+
+## Evaluation code on GoodNews
+
+`python eval_goodnews.py`
+
+# Required Arguments For Training
 
 1. pretrained_path: path to pretrained CLIP model
 2. num_imgs: maximum number of images in a set
