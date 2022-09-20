@@ -22,6 +22,15 @@ This repository contains a PyTorch implementation of the paper [NewsStories: Ill
 
 You can use this link to download the NewsStories dataset. 
 
+# Download GoodNews Dataset and evaluation splits
+
+To begin, please follow the instructions [here](https://github.com/furkanbiten/GoodNews) to download the GoodNews dataset. In our experiments, we evaluate the trained models on the GoodNews dataset.
+
+Next, you can download the evaluation splits that we use in our experiments using the links below:
+1. [evaluation split with 3 images]([https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_3_images_eval_articles.json))
+2. [evaluation split with 4 images]([https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_4_images_eval_articles.json))
+3. [evaluation split with 5 images]([https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_5_images_eval_articles.json))
+
 # MIL-SIM code
 
 ## Training code on NewsStories
@@ -29,8 +38,6 @@ You can use this link to download the NewsStories dataset.
 `python train_model.py --pretrained_path {path to pretrained CLIP model}  --num_imgs {maximum number of images in a set} --num_sentences {maximum number of sentences in an article.}`
 
 ## Evaluation code on GoodNews
-
-To begin, please follow the instructions [here](https://github.com/furkanbiten/GoodNews) to download the GoodNews dataset. In our experiments, we evaluate the trained models on the GoodNews
 
 `python eval_goodnews.py`
 
