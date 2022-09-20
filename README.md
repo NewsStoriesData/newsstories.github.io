@@ -27,9 +27,9 @@ You can use this link to download the NewsStories dataset.
 To begin, please follow the instructions [here](https://github.com/furkanbiten/GoodNews) to download the GoodNews dataset. In our experiments, we evaluate the trained models on the GoodNews dataset.
 
 Next, you can download the evaluation splits that we use in our experiments using the links below:
-1. [evaluation split with 3 images]([https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_3_images_eval_articles.json))
-2. [evaluation split with 4 images]([https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_4_images_eval_articles.json))
-3. [evaluation split with 5 images]([https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_5_images_eval_articles.json))
+1. [evaluation split with 3 images](https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_3_images_eval_articles.json))
+2. [evaluation split with 4 images](https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_4_images_eval_articles.json))
+3. [evaluation split with 5 images](https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_5_images_eval_articles.json))
 
 # MIL-SIM code
 
