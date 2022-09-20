@@ -20,16 +20,16 @@ This repository contains a PyTorch implementation of the paper [NewsStories: Ill
 
 ![alt text](dataset.png)
 
-You can use this link to download the NewsStories dataset. 
+Please use this [here](https://storage.googleapis.com/gresearch/news-stories/full_newsstories_filtered_split.json) to download the full dataset which contains the meta data required for downloaading the images, articles and videos. The evaluation split with 5 images can also be found [here](https://storage.googleapis.com/gresearch/news-stories/final_5_images_newsstories_eval_split.json).
 
 # Download GoodNews Dataset and evaluation splits
 
 To begin, please follow the instructions [here](https://github.com/furkanbiten/GoodNews) to download the GoodNews dataset. In our experiments, we evaluate the trained models on the GoodNews dataset.
 
 Next, you can download the evaluation splits that we use in our experiments using the links below:
-1. [evaluation split with 3 images](https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_3_images_eval_articles.json))
-2. [evaluation split with 4 images](https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_4_images_eval_articles.json))
-3. [evaluation split with 5 images](https://github.com/furkanbiten/GoodNews](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_5_images_eval_articles.json))
+1. [evaluation split with 3 images](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_3_images_eval_articles.json)
+2. [evaluation split with 4 images](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_4_images_eval_articles.json)
+3. [evaluation split with 5 images](https://storage.googleapis.com/gresearch/news-stories/goodnews_evaluation/split_5_images_eval_articles.json)
 
 # MIL-SIM code
 
@@ -46,3 +46,5 @@ Next, you can download the evaluation splits that we use in our experiments usin
 1. pretrained_path: path to pretrained CLIP model
 2. num_imgs: maximum number of images in a set
 3. num_sentences: maximum number of sentences in an article.
+
+
