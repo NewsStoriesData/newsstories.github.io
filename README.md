@@ -47,4 +47,5 @@ Next, you can download the evaluation splits that we use in our experiments usin
 2. num_imgs: maximum number of images in a set
 3. num_sentences: maximum number of sentences in an article.
 
-
+# Contact
+Please do not hesitate to contact me at rxtan@bu.edu if you have any questions or problems running the code.
